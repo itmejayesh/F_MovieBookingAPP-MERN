@@ -15,7 +15,7 @@ function BookingDetailScreen() {
 
 			await new Promise((resolve) => setTimeout(resolve, 5000));
 
-			const res = await fetch(`http://localhost:8080/api/v1/booking`, {
+			const res = await fetch(`https://b-moviebookingapp-mern-2.onrender.com/api/v1/booking`, {
 				method: "GET",
 			});
 			const data = await res.json();
