@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MovieBookingApp Frontend
 
-## Getting Started
+This is a demo of real Ticket Booking System, where the user can book a movie with specified seats at a specified slot and get a confirmation that, wheteher booking was sucessful or not.
 
-First, run the development server:
+The movie booked by the user will be stored in database and is retrived and shown to the user.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Client:** React, Redux, TailwindCSS, Next Js, Shadcn Ui
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+**Server:** Node, Express, Mongo DB, Mongoose
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Demo
 
-## Learn More
+https://f-movie-booking-app-mern-pcr6.vercel.app/
 
-To learn more about Next.js, take a look at the following resources:
+## Feedback
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+If you have any feedback, please reach out to us at jayeshgadhok@gmail.com
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Screenshots
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![App Screenshot](https://i.ibb.co/JkSWY3C/Screenshot-2024-02-29-191324.png)
