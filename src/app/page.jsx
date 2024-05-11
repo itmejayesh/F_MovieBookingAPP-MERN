@@ -45,6 +45,7 @@ export default function Home() {
 			className=" flex min-h-screen flex-col
      items-center justify-between px-20 py-10"
 		>
+			<div className="font-mono font-bold text-2xl text-red-500 underline underline-offset-8">Public Movie Booking App</div>
 			<div
 				className="mb-32 flex flex-col text-center text-white
         lg:text-left p-9"

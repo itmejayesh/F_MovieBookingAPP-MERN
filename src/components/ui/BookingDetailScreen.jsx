@@ -31,11 +31,11 @@ function BookingDetailScreen() {
 	}, [lastBookingDetails]);
 
 	return (
-		<div className="h-72 border py-10 mb-5 px-8">
+		<div className="h-50 border py-10 mb-5 px-8">
 			<h2 className="text-center font-mono font-bold pb-5">Last Booking Details:</h2>
 			{loader ? (
-				<div className="h-full flex flex-col items-center justify-center space-y-5">
-					<Skeleton className="h-[100px] w-full rounded-xl" />
+				<div className="h-50 flex flex-col items-center justify-center space-y-5">
+					<Skeleton className="h-8 w-full rounded-xl" />
 					<div className="flex flex-col items-center w-full">
 						<Skeleton className="h-4 w-3/4 mb-2" />
 						<Skeleton className="h-4 w-3/4 mb-2" />
